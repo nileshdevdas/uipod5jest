@@ -1,0 +1,27 @@
+
+.sidebar {
+    top: 60px;
+    left: 0;
+    height: 100%;
+    width: 20px;
+    position: absolute;
+    transition: 1s;
+    background: black;
+}
+
+.sidebar:hover {
+    transition: 2s;
+    width: 100px;
+}
+
+.sidebar .show {
+    width: inherit;
+    visibility: collapse;
+    color: white;
+}
+
+.sidebar:hover .show {
+    width: 100px;
+    visibility: visible;
+    transition-delay: 1s;
+}

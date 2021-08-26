@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Login Screen should container username textbox 1`] = `
+<div
+  className="container"
+>
+  <form
+    className="form"
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        data-testid="username-label"
+        htmlFor="username"
+      >
+        Username
+      </label>
+      <input
+        className="form-control-sm"
+        data-testid="username"
+        id="username"
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        data-testid="password-label"
+        htmlFor="password"
+      >
+        Password
+      </label>
+      <input
+        className="form-control-sm"
+        data-testid="password"
+        id="password"
+        type="password"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <button
+        data-testid="login-submit"
+        onClick={[Function]}
+        type="button"
+      >
+        Login
+      </button>
+    </div>
+    <div />
+  </form>
+</div>
+`;
